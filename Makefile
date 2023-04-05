@@ -1,11 +1,13 @@
-linux:
+linux: clean
 	#changing the permissions 
-	chmod +x ~/.dotfiles/bin/linux.sh
+	#chmod 700 ~/.dotfiles/bin/linux.sh
 	# running the script
-	~/.dotfiles/bin/linux.sh
+	#~/.dotfiles/bin/linux.sh
+	./bin/linux.sh
 
-clean: linux
+clean: 
 	#changing the permissions
-	chmod +x ~/.dotfiles/bin/cleanup.sh
+	#chmod 700 ~/.dotfiles/bin/cleanup.sh
 	# running the script
-	~/.dotfiles/bin/cleanup.sh
+	#~/.dotfiles/bin/cleanup.sh
+	./bin/cleanup.sh
